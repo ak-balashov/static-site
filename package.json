@@ -8,7 +8,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "shadow:watch": "npx shadow-cljs watch app"
+        "shadow:watch": "npx shadow-cljs watch app",
+        "shadow:production": "npx shadow-cljs release app"
     },
     "keywords": [],
     "author": "",
